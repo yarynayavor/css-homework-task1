@@ -45,7 +45,15 @@ h2 {
 	margin-bottom: 15px;
 }
 	
-div.block-1 {}
+div.block-1 {
+	color: #fff;
+	font-style: italic;
+	font-size: 12px;
+	background-image: url("img/block-1-bg.png");
+	background-repeat: repeat-x;
+	background-color: #2b8c57;
+	padding: 20px 30px;
+}
 div.block-2 {}
 
 a.button {}
