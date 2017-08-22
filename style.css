@@ -65,6 +65,17 @@ div.block-2 {
 	padding: 20px 30px;
 }
 
-a.button {}
-a.button:hover {}
-a.button:active {}
+a.button {
+	background-image: url("img/button-1.png");
+	background-position: left 0px top 0px;
+	display:block;
+	width: 121px;
+	height: 38px;
+	text-decoration: none;
+}
+a.button:hover {
+	background-position: left 0px top -38px;
+}
+a.button:active {
+	background-position: left 0px top -76px;
+}
