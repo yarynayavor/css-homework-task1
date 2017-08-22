@@ -3,6 +3,10 @@ body{
     background-image: url("img/body-bg.png");
     background-repeat: repeat-x;
     background-position: fixed;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+    font-family: Arial;
 }
 
 .content {}
