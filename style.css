@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #638a79;
     background-image: url("img/body-bg.png");
     background-repeat: repeat-x;
@@ -9,13 +9,41 @@ body{
     font-family: Arial;
 }
 
-.content {}
-.content .content-top {}
-.content .content-bottom {}
-.content .content-middle {}
+.content {
+	width: 840px;
+	background-color: #fff;
+	margin: 100px auto 0;
+}
+.content .content-top {
+	height: 12px;
+	background-image: url("img/content-bg.png");
+	background-position: left 0px top 0px;
+}
+.content .content-bottom {
+	height: 12px;
+	background-image: url("img/content-bg.png");
+	background-position: left -840px top -840px;
+}
+.content .content-middle {
+	padding: 20px 30px;
+}
 	
-h1 { }
-h2 { }
+h1 {
+	font-size: 26px;
+	line-height: 36px;
+	color: #2b8c57;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+h2 { 
+	font-size: 18px;
+	line-height: 28px;
+	color: #2b8c57;
+	font-weight: normal;
+	font-style: italic;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
 	
 div.block-1 {}
 div.block-2 {}
