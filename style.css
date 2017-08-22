@@ -54,7 +54,16 @@ div.block-1 {
 	background-color: #2b8c57;
 	padding: 20px 30px;
 }
-div.block-2 {}
+div.block-2 {
+	background-color: #356149;
+	background-image: url("img/picture-1.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	color: #fff;
+	font-style: italic;
+	font-size: 12px;
+	padding: 20px 30px;
+}
 
 a.button {}
 a.button:hover {}
