@@ -17,12 +17,12 @@ body {
 .content .content-top {
 	height: 12px;
 	background-image: url("img/content-bg.png");
-	background-position: left 0px top 0px;
+	background-position: 0px 0px;
 }
 .content .content-bottom {
 	height: 12px;
 	background-image: url("img/content-bg.png");
-	background-position: left -840px top -840px;
+	background-position: -840px -840px;
 }
 .content .content-middle {
 	padding: 20px 30px;
@@ -67,15 +67,15 @@ div.block-2 {
 
 a.button {
 	background-image: url("img/button-1.png");
-	background-position: left 0px top 0px;
+	background-position: 0px 0px;
 	display:block;
 	width: 121px;
 	height: 38px;
 	text-decoration: none;
 }
 a.button:hover {
-	background-position: left 0px top -38px;
+	background-position: 0px -38px;
 }
 a.button:active {
-	background-position: left 0px top -76px;
+	background-position: 0px -76px;
 }
